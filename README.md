@@ -1,6 +1,6 @@
 # SUTOM
 
-Jeu de lettres en ligne (et en français) basé sur Wordle. Le jeu se trouve à l'adresse https://sutom.nocle.fr
+Jeu de lettres en ligne (et en français) basé sur Wordle. Projet original de [@Jonamaths](https://twitter.com/Jonamaths) Le jeu se trouve à l'adresse https://sutom.patapouf.xyz
 
 ## Contributions
 

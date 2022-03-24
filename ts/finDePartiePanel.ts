@@ -108,7 +108,7 @@ export default class FinDePartiePanel {
       event.stopPropagation();
       new Promise((resolve, reject) => {
         if (window.navigator.clipboard !== undefined) {
-          return resolve(window.navigator.clipboard.writeText(this._resumeTexte + "\n\nhttps://sutom.nocle.fr"));
+          return resolve(window.navigator.clipboard.writeText(this._resumeTexte + "\n\nhttps://sutom.patapouf.xyz"));
         }
 
         return reject();
@@ -116,7 +116,7 @@ export default class FinDePartiePanel {
         .catch(
           () =>
             new Promise((resolve, reject) => {
-              if (window.navigator.share !== undefined) return resolve(navigator.share({ text: this._resumeTexte + "\n\nhttps://sutom.nocle.fr" }));
+              if (window.navigator.share !== undefined) return resolve(navigator.share({ text: this._resumeTexte + "\n\nhttps://sutom.patapouf.xyz" }));
 
               return reject();
             })
