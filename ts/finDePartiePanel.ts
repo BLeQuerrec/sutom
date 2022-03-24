@@ -108,7 +108,7 @@ export default class FinDePartiePanel {
       event.stopPropagation();
       new Promise((resolve, reject) => {
         if (window.navigator.clipboard !== undefined) {
-          return resolve(window.navigator.clipboard.writeText(this._resumeTexte + "\n\nhttps://sutom.patapouf.xyz"));
+          return resolve(window.navigator.clipboard.writeText(this._resumeTexte + "\n\n" + window.location.protocol + "//" + window.location.host));
         }
 
         return reject();
